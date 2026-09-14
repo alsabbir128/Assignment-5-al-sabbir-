@@ -4,7 +4,7 @@ A clean and interactive technology stack builder for developers. Explore modern 
 
 ## Technology Used
 
-- React 19
+- React 
 - TypeScript
 - Tailwind CSS
 - Lucide React
