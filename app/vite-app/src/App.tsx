@@ -1,9 +1,7 @@
-"use client";
-
 import { useEffect, useMemo, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import { Menu, Star, X } from "lucide-react";
-import technologiesData from "@/data/technologies.json";
+import technologiesData from "./data/technologies.json";
 import "react-toastify/dist/ReactToastify.css";
 
 type Technology = (typeof technologiesData)[number];
