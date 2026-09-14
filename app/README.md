@@ -18,16 +18,6 @@ A clean and interactive technology stack builder for developers. Explore modern 
 2. **Build your stack** — Add technologies to your personal stack, remove individual items, or clear everything at once.
 3. **Responsive experience** — Use the site comfortably on mobile, tablet, and desktop with a branded loading screen and toast notifications.
 
-## Getting Started
-
-Install the dependencies and start the development server:
-
-```bash
-pnpm install
-pnpm dev
-```
-
-Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## React Questions
 
@@ -67,18 +57,3 @@ Conditional rendering means showing different UI depending on a condition. For e
 
 A parent passes data through props, such as sending `stack` to `StackPanel`. A child sends information back by calling a callback prop, such as `onAdd` or `onRemove`.
 
-## Project Structure
-
-```text
-app/page.tsx          Main page and React components
-data/technologies.json Technology card data
-app/globals.css       Global styles and design tokens
-```
-
-## License
-
-This project is available for learning and personal use.
-
----
-
-Built with React and Next.js for developers choosing their next technology stack.
